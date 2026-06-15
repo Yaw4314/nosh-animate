@@ -5,7 +5,7 @@ import { BurgerCard } from './burger-card';
 import { useState, useMemo } from 'react';
 import { MenuItem } from '@/data/menu';
 
-export function Menu({ initialItems }) {
+export function Menu({ initialItems }: { initialItems: MenuItem[] }) {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const shouldReduceMotion = useReducedMotion();
 

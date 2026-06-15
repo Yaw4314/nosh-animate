@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useCart } from '@/hooks/use-cart';
 import { MessageCircle, ShoppingBag } from 'lucide-react';
 
-export function FloatingActionBar({ onCartClick }) {
+export function FloatingActionBar({ onCartClick }: { onCartClick: () => void }) {
   const { getTotalItems } = useCart();
   const totalItems = getTotalItems();
 

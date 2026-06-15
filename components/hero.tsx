@@ -4,7 +4,7 @@ import { useScroll, useTransform, motion, useSpring, useReducedMotion } from 'fr
 import { useRef } from 'react';
 
 export function Hero() {
-  const containerRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const shouldReduceMotion = useReducedMotion();
 
   const { scrollYProgress } = useScroll({
