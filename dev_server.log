@@ -1,0 +1,12 @@
+
+> nosh-burgers@0.1.0 dev
+> next dev
+
+   ▲ Next.js 14.1.0
+   - Local:        http://localhost:3000
+
+ ✓ Ready in 2.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 12.3s (1214 modules)
+ ○ Compiling /api/menu ...
+ ✓ Compiled /api/menu in 2.1s (624 modules)

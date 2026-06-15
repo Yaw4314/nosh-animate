@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Menu } from './menu';
+import { Menu } from '@/components/menu';
 import { MenuItem, burgers as staticBurgers } from '@/data/menu';
 
 export function MenuWrapper() {

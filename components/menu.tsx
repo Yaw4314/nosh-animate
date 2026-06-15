@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, useReducedMotion } from 'framer-motion';
-import { BurgerCard } from './burger-card';
+import { BurgerCard } from '@/components/burger-card';
 import { useState, useMemo } from 'react';
 import { MenuItem } from '@/data/menu';
 
